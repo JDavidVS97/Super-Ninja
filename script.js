@@ -31,6 +31,7 @@ class Sensei extends Ninja {
         super.drinkSake();
     }
     showStats() {
+        drinkSake();
         super.showStats();
     }
 }
